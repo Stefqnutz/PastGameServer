@@ -224,8 +224,8 @@
         const address = server.address();
         console.log(`started server: ${address.address}:${address.port}`);
         if (publicServer) {
-            server.send("NAME:" + serverName, 6000, "0.0.0.0");
-            server.send("GAMEMODE:" + gamemode, 6000, "0.0.0.0");
+            server.send("NAME:" + serverName, 6000, "35.157.117.28");
+            server.send("GAMEMODE:" + gamemode, 6000, "35.157.117.28");
         }
       });
 
